@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th colspan="2">1</th>
+                <th rowspan="2">2</th>
+            </tr>
+            <tr>
+                <th rowspan="2">3</th>
+                <th>4</th>
+            </tr>
+            <tr>
+                <th colspan="2">5</th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th rowspan="3">4</th>
+        </tr>
+        <tr>
+            <th colspan="4">5</th>
+        </tr>
+        <tr>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+        </tr>
+    </table>
+    <br>
+    <form action="#" method="post">
+        <label for="nameField">名前：</label><input id="nameField" type="text" name="name"><br>
+        <label>パスワード：
+            <input id="pass" type="password" name="password"><br>
+        </label>
+            <input type="radio" name="gender" value="male" checked>男
+        <input type="radio" name="gender" value="female">女
+        <input type="radio" name="gender" value="matsuko">マツコ
+        <br><br>
+        <input type="checkbox" name="triathlon" value="swim">水泳
+        <input type="checkbox" name="triathlon" value="bike">自転車
+        <input type="checkbox" name="triathlon" value="run">走る
+        <br>
+        <br>
+        
+    </form>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume">
+        <input type="hidden" name="employeeId" value="12345">
+        <br><br>
+        <textarea name="名前" rows="行数" cols="横幅">初期値</textarea>
+        <br>
+        <select name="hobby">
+            <option value="swim">水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run" selected>走る</option>
+        </select>
+        <br>
+        <select name="play" multiple>
+            <option value="swim">水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run">走る</option>
+        </select>
+        <br><br>
+        <button type="submit">送信</button>
+        &nbsp;
+        <button><img src="btn.png"></button>
+        &nbsp;
+        <button type="button">ただのボタン</button>
+    </form>
+
+    
+    
+</body>
+</html>
