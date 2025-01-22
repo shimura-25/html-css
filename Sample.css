@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div#ID1{
+    color: red;
+    font-size: 18pt;
+}
+
+div#ID2{
+    color: forestgreen;
+    font-weight: 700;
+}
+
+.student{
+    color: blue;
+    font-size: smaller;
+} 

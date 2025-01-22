@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+header{
+    background-color: palevioletred;
+    width: 900px;
+    height: 80px;
+}
+
+.section1{
+    background-color: brown;
+    width: 280px;
+    height: 500px;
+}
+
+.section2{
+    background-color: crimson;
+    width: 620px;
+    height: 500px;
+    
+}
+
+footer{
+    background-color: deeppink;
+    width: 900px;
+    height: 60px;
+}
+
+/*今回の横並びはmainタグで行う*/
+.main{
+    display: flex;
+}
+

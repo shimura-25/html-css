@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header{
+    position: relative;
+    background-color: aqua;
+    width: 900px;
+    height: 80px;
+}
+
+.main{
+    display: flex;
+}
+
+.section1{
+    position: relative;
+    background-color: cadetblue;
+    width: 280px;
+    height: 500px;
+}
+
+.section2{
+    position: relative;
+    background-color: darkblue;
+    width: 620px;
+    height: 500px;
+}
+
+footer{
+    position: relative;
+    background-color: darkturquoise;
+    width: 900px;
+    height: 60px;
+}
